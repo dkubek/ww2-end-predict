@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ww2-end-predict"
+version = "0.1.0"
+description = ""
+authors = ["David Kubek <david.kubek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.44.2"
+datasets = "^3.0.0"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+tiktoken = "^0.7.0"
+accelerate = "^0.34.2"
+bitsandbytes = "^0.43.3"
+
+
+[tool.poetry.group.dev.dependencies]
+internetarchive = "^4.1.0"
+ipython = "^8.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
